@@ -27,7 +27,7 @@ class SteamWebApi {
     }
   }
 
-  async sendTradeOffer(offerData: OfferDataParams): Promise<boolean> {
+  async sendTradeOffer(offerData: OfferDataParams): Promise<any> {
     try {
       await client.post("/tradeoffer", offerData, {
         params: { key: this.apiKey },
