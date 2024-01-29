@@ -1,5 +1,5 @@
 {
-  "name": "steamwebapi-node",
+  "name": "steamwebapi-wrapper",
   "version": "0.1.0",
   "description": "A Node.js wrapper for Steam Web API",
   "private": "false",
