@@ -1,5 +1,5 @@
 ---
-"steamwebapi-node": patch
+"steamwebapi-wrapper": patch
 ---
 
 initial commit

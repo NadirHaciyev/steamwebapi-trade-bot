@@ -1,5 +1,5 @@
 ---
-"steamwebapi-node": minor
+"steamwebapi-wrapper": minor
 ---
 
 init package
