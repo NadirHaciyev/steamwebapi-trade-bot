@@ -2,12 +2,15 @@
   "name": "steamwebapi-node",
   "version": "0.0.1",
   "description": "A Node.js wrapper for Steam Web API",
+  "private": "false",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "ci": "pnpm run lint && pnpm run build",
+    "release": "pnpm run lint && pnpm run build && changeset publish"
   },
   "keywords": [
     "steamwebapi",
