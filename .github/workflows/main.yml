@@ -19,7 +19,3 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
       - run: pnpm run lint && pnpm run build
-
-    strategy:
-    matrix:
-      node-version:
