@@ -1,6 +1,6 @@
 {
   "name": "steamwebapi-wrapper",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A Node.js wrapper for Steam Web API",
   "publishConfig": {
     "access": "public"

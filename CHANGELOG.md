@@ -1,5 +1,11 @@
 # steamwebapi-node
 
+## 0.3.0
+
+### Minor Changes
+
+- 5302f20: added changeset
+
 ## 0.2.0
 
 ### Minor Changes
