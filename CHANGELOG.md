@@ -1,5 +1,11 @@
 # steamwebapi-node
 
+## 0.3.1
+
+### Patch Changes
+
+- 933263f: added npmignore
+
 ## 0.3.0
 
 ### Minor Changes
