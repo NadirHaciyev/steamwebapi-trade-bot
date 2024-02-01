@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/NadirHaciyev/steamwebapi-wrapper">
     <picture>
-      <img alt="Steamwebapi" src="./steamwebapi-wrapper-logo.svg" width="500" style="max-width: 100%; aspect-ratio: 5 / 1.5;">
+      <img alt="Steamwebapi Wrapper" src="https://raw.githubusercontent.com/NadirHaciyev/steamwebapi-wrapper/HEAD/.github/steamwebapi-wrapper-logo.svg" width="500" style="max-width: 100%; aspect-ratio: 5 / 1.5;">
     </picture>
   </a>
 </p>
