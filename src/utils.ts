@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from "axios";
 
 export const client: AxiosInstance = axios.create({
-  baseURL: "https://www.steamwebapi.com/steam/api",
+  baseURL: "https://www.steamwebapi.com",
 });

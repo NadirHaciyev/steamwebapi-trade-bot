@@ -12,12 +12,11 @@ interface ISteamWebApi {
 
 export default class SteamWebApi implements ISteamWebApi {
   private apiKey: string;
+  trade: Trade;
 
   constructor({ apiKey }: ConstructorParams) {
     this.apiKey = apiKey;
-  }
-  get trade() {
-    return new Trade(this.apiKey);
+    this.trade = new Trade(apiKey);
   }
 
   setApiKey(apiKey: string) {
@@ -28,4 +27,3 @@ export default class SteamWebApi implements ISteamWebApi {
     return this.apiKey;
   }
 }
-

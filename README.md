@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/NadirHaciyev/steamwebapi-wrapper">
     <picture>
-      <img alt="Steamwebapi Wrapper" src="https://raw.githubusercontent.com/NadirHaciyev/steamwebapi-wrapper/HEAD/.github/steamwebapi-wrapper-logo.svg" width="500" style="max-width: 100%; aspect-ratio: 5 / 1.5;">
+      <img alt="Steamwebapi Wrapper" src="https://raw.githubusercontent.com/NadirHaciyev/steamwebapi-wrapper/HEAD/.github/steamwebapi-wrapper-logo.svg" width="300" style="max-width: 100%; aspect-ratio: 5 / 1.5;">
     </picture>
   </a>
 </p>
@@ -68,9 +68,9 @@ import SteamWebApi from "steamwebapi-wrapper";
 // Create instance by providing API Key
 const swa = new SteamWebApi({ apiKey: "your_api_key" });
 
-// Get all trade offers
+// Creata a new trade offer
 swa.trade
-  .getAllTradeOffers()
+  .createOffer()
   .then((res) => console.log(res))
   .catch((error) => console.log(error));
 ```
@@ -79,37 +79,16 @@ swa.trade
 
 The API wrapper supports the following endpoints:
 
-- **Currency**
-
-  - Get a list of currencies
-  - Get exchange rates for currencies
-
-- **Profiles**
-
-  - Get random steam profile
-  - Get a steam profile with high valued inventory
-
-- **Items**
-
-  - Get Steam items
-  - Get information about Steam items
-  - Find Steam items
-  - Get details of a specific Steam item
-  - Get item history
-
-- **Inventory**
-
-  - Get Steam inventory
-  - Get Steam inventory tracked by day
-
-- **Profile**
-  - Get Steam IDs
-  - Get Steam profiles
-  - Get Steam friend lists
+- **Trade**
+  - Initiate a New Trade Offer
+  - Retrieve Status of Trade Offers
+  - Cancel Trade Offer
+  - Decline Trade Offer
+  - Accept Trade Offer
 
 ## Examples
 
-For more examples check the [examples directory](https://github.com/oguzhantasimaz/steam-web-api-go/tree/main/examples).
+For more examples check the [examples directory](https://github.com/NadirHaciyev/steamwebapi-wrapper/tree/main/examples).
 
 ## Contributing
 
