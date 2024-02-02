@@ -6,6 +6,8 @@ import type {
   DeclineParamsType,
   StatusParamsType,
 } from "../types/trade";
+import axios from "axios";
+import { InternalServerError, AxiosError } from "../core/error-handler";
 
 export interface ITrade {
   createOffer: (createParams: CreateParamsType) => void;
@@ -15,11 +17,11 @@ export interface ITrade {
   acceptOffer: (acceptParams: AcceptParamsType) => void;
 }
 
+const TRADE_URL = "https://www.steamwebapi.com/steam/api/trade";
 export default class Trade implements ITrade {
   constructor(apiKey: string) {
-    client.defaults.params.apiKey = apiKey;
-    client.defaults.params.baseUrl =
-      "https//www.steamwebapi.com/steam/api/trade";
+    client.defaults.params.key = apiKey;
+    client.defaults.baseURL = TRADE_URL;
   }
 
   async createOffer(createParams: CreateParamsType) {
@@ -37,7 +39,8 @@ export default class Trade implements ITrade {
   async getOffersStatus(statusParams: StatusParamsType) {
     try {
       const offersStatusRes = await client.post("/status", statusParams);
-      if (offersStatusRes.status !== 200) throw new Error("An error occurred");
+      if (offersStatusRes.status !== 200)
+        throw new InternalServerError("Unknown Error");
 
       return offersStatusRes;
     } catch (error) {
