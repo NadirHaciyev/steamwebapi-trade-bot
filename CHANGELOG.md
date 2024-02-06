@@ -1,5 +1,17 @@
 # steamwebapi-node
 
+## 0.5.0
+
+### Minor Changes
+
+- a64b781: add defaults
+- c236c6b: trade service completed
+- a252d50: error handling
+
+### Patch Changes
+
+- 41b826d: update readme
+
 ## 0.4.0
 
 ### Minor Changes
