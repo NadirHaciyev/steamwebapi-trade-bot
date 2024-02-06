@@ -8,7 +8,7 @@ const client: AxiosInstance = axios.create({
 
 client.interceptors.response.use(
   null,
-  (error) => {
+  (error: any) => {
     const message = error.response?.data?.error?.[0] ?? error.message;
     const status =
       error.response?.data?.status ?? error.response?.status ?? 500;
