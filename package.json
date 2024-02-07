@@ -1,7 +1,7 @@
 {
-  "name": "steamwebapi-wrapper",
+  "name": "steamwebapi-trade-bot",
   "version": "0.5.0",
-  "description": "A Node.js wrapper for Steam Web API",
+  "description": "The official TypeScript library for the Steamwebapi Trade Bot",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -17,6 +17,7 @@
   },
   "keywords": [
     "steamwebapi",
+    "trade-bot",
     "typescript",
     "steam",
     "api",
@@ -26,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NadirHaciyev/steamwebapi-wrapper"
+    "url": "https://github.com/NadirHaciyev/steamwebapi-trade-bot"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
