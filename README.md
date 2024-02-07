@@ -15,7 +15,7 @@
 
 This library provides convenient access to the Steamwebapi REST API from TypeScript or JavaScript.
 
-To learn how to use the Steamwebapi API, check out our [API Reference](https://www.steamwebapi.com/api/list) and [Documentation](https://www.steamwebapi.com/api/doc).
+To learn how to use the Steamwebapi API, check out our [API Reference](https://www.steamwebapi.com/api/list) and [Documentation](https://www.steamwebapi.com/api/doc/steam-trading-bot-api).
 
 ## Table of Contents
 
@@ -45,7 +45,9 @@ To use this wrapper, you first need to obtain an API key from the Steam Web API.
 2. Log in with your Steam account. If you do not have an account, you will need to create one.
 3. Fill in the required information to request an API key. This key will be necessary to access the Steam Web API.
 
-The full API of this library can be found in [api.md file](api.md) along with many [code examples](https://github.com/NadirHaciyev/steamwebapi-wrapper/tree/main/examples). The code below shows how to get started using the Steamwebapi API.
+The code below shows how to get started using the Steamwebapi Trade Bot API.
+
+<!-- The full API of this library can be found in [api.md file](api.md) along with many [code examples](https://github.com/NadirHaciyev/steamwebapi-trade-bot/tree/main/examples). The code below shows how to get started using the Steamwebapi API. -->
 
 <!-- prettier-ignore -->
 ```ts
