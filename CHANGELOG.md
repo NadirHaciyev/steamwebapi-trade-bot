@@ -1,5 +1,11 @@
 # steamwebapi-node
 
+## 0.5.1
+
+### Patch Changes
+
+- 2887761: update readme
+
 ## 0.5.0
 
 ### Minor Changes
