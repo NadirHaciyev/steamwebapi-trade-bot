@@ -1,5 +1,11 @@
 # steamwebapi-node
 
+## 1.0.0
+
+### Major Changes
+
+- cc693fe: production ready
+
 ## 0.5.1
 
 ### Patch Changes
